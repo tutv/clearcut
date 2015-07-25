@@ -40,6 +40,13 @@
     padding: 53px 20px 33px;
 }
 
+/* Nabar for mobile */
+#navbar-mobile ul.nav > li > a {
+    text-transform: uppercase;
+    color: #979797;
+    padding: 10px 20px;
+}
+
 #navbar-top ul.nav > li.active > a {
     background-color: #a8c254;
     color: #fff;

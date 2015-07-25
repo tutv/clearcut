@@ -261,11 +261,14 @@
 
 /* Copyright */
 #copyright {
-    border-top: 1px solid #3a3a3a;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #999;
     font-size: 12px;
+}
+
+.border-top-copyright {
+    border-top: 1px solid #3a3a3a;
 }
 
 /**** End Footer ****/

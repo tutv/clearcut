@@ -1,0 +1,272 @@
+#home {
+    background-color: #313131;
+    color: #666;
+    font-size: 13px;
+}
+
+#home a {
+    color: #a7c353;
+}
+
+#header, #main {
+    background-color: #fff;
+}
+
+/**** Header ****/
+#header {
+    border-top: 5px solid #a8c254;
+}
+
+/* Navigation */
+#navbar-top {
+    min-height: 100px;
+    border: none;
+    background-color: #fff;
+}
+
+#navbar-top .navbar-brand {
+    min-height: 106px;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+#navbar-top ul.nav > li > a {
+    text-transform: uppercase;
+    color: #979797;
+    padding: 53px 20px 33px;
+}
+
+#navbar-top ul.nav > li.active > a {
+    background-color: #a8c254;
+    color: #fff;
+}
+
+#navbar-top .boder-bottom {
+    border: 1px solid #a8c254;
+    margin: 0 15px;
+}
+
+/* Shout */
+.shout {
+    width: 80%;
+    padding-top: 43px;
+    padding-bottom: 40px;
+}
+
+.shout p {
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+}
+
+.shout p i.fa{
+    font-size: 12px;
+}
+/**** End Header ****/
+/********************/
+
+/**** Main ****/
+
+/* Slider */
+#slider {
+
+}
+
+#slideshow {
+    margin-bottom: 40px;
+}
+
+#slider .boder-bottom {
+    border: 1px solid #e2e2e2;
+}
+
+/* Content */
+#content {
+    padding-bottom: 40px;
+}
+
+#aboutUs p {
+    color: #999;
+    margin-bottom: 18px;
+}
+
+#content h3 {
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.img-fullwidth {
+    width: 100%;
+    height: auto;
+}
+
+#img-aboutUs {
+    margin-bottom: 21px;
+}
+
+#services > a {
+    margin-top: -6px;
+}
+
+.service {
+    margin-bottom: 18px;
+}
+
+.service .media-left {
+    padding-right: 9px;
+}
+
+.service .media-right {
+    padding-left: 9px;
+}
+
+.service h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.service p {
+    color: #868686;
+}
+
+#clientSay h3 {
+    padding-bottom: 15px;
+}
+
+#clientSay p {
+    color: #888888;
+    margin-bottom: 7px;
+}
+
+.quote {
+    margin-bottom: 20px;
+}
+
+.quote h4 {
+    color: #989898;
+}
+
+.quote h4 > span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.quote h4 > i.fa {
+    font-size: 44px;
+    color: #d4d4d4;
+    margin-top: -15px;
+}
+
+/**** End Main ****/
+/********************/
+
+/**** Footer ****/
+#footer {
+    color: #fff;
+}
+
+#footer p {
+    color: #999999;
+}
+
+/* Linked */
+#linked {
+    margin-top: 32px;
+}
+
+#linked h4 {
+    padding-bottom: 17px;
+    border-bottom: 1px solid #3a3a3a;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+#company-details p {
+    margin-bottom: 20px;
+}
+
+#social h4 {
+    margin-bottom: 17px;
+}
+
+#social > div {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #383838;
+    margin-bottom: 14px;
+}
+
+#social i {
+    background-color: #383838;
+    border-radius: 100%;
+    margin-right: 11px;
+}
+
+#social i.fa-linkedin, #social i.fa-pinterest, #social i.fa-rss {
+    padding: 9px 10px;
+}
+
+#social i.fa-twitter {
+    padding: 9px;
+}
+
+#posts h4 {
+    margin-bottom: 19px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post h5 {
+    color: #999999;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.post p.meta {
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.post main p {
+    margin-bottom: 15px;
+}
+
+#contactUs h4 {
+    margin-bottom: 19px;
+}
+
+#contactUs .form-control {
+    padding: 10px;
+    background-color: #383838;
+    border: none;
+    color: #fff;
+}
+
+#contactUs .form-group {
+    margin-bottom: 10px;
+}
+
+#contactUs button.btn {
+    background-color: #a7c353;
+    color: #313131;
+    border: none;
+    text-transform: uppercase;
+}
+
+/* Copyright */
+#copyright {
+    border-top: 1px solid #3a3a3a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+/**** End Footer ****/
+/********************/

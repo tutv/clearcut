@@ -123,7 +123,8 @@
 
 
 #slider .carousel-indicators {
-    bottom: -47px;
+    bottom: -40px;
+    margin-bottom: 0;
 }
 
 #slider .carousel-indicators li {
@@ -134,7 +135,9 @@
     border: none;
     width: 15px;
     height: 15px;
+    line-height: 1;
     margin: 0;
+    padding: 0 5px 0 0;
 }
 
 #slider .carousel-indicators li.active {

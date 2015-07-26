@@ -228,7 +228,7 @@
 }
 
 #clientSay h3 {
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 #clientSay p {
@@ -237,23 +237,24 @@
 }
 
 .quote {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .quote h4 {
     color: #989898;
     font-size: 16px;
     line-height: 15px;
+    margin-top: 0;
+    margin-bottom: 11px;
 }
 
-.quote h4 > span {
+.quote h4 .media-right {
+    padding-left: 1px;
+    line-height: 44px;
+}
+
+.quote h4 .media-right > span {
     font-weight: bold;
-}
-
-.quote h4 > i.fa {
-    font-size: 44px;
-    color: #d4d4d4;
-    margin-top: -15px;
 }
 
 /**** End Main ****/

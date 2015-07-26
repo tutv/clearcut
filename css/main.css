@@ -19,15 +19,14 @@
 
 /* Navigation */
 #navbar-top {
-    min-height: 100px;
     border: none;
     background-color: #fff;
 }
 
 #navbar-top .navbar-brand {
-    min-height: 106px;
+    min-height: 96px;
     padding-top: 29px;
-    padding-bottom: 29px;
+    padding-bottom: 27px;
 }
 
 .navbar-brand img {
@@ -41,14 +40,15 @@
 #navbar-top ul.nav > li > a {
     text-transform: uppercase;
     color: #979797;
-    padding: 53px 20px 33px;
+    padding: 53px 22px 33px 19px;
+    line-height: 10px;
 }
 
 /* Nabar for mobile */
 #navbar-mobile ul.nav > li > a {
     text-transform: uppercase;
     color: #979797;
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 #navbar-top ul.nav > li.active > a {
@@ -57,14 +57,14 @@
 }
 
 #navbar-top .boder-bottom {
-    border: 1px solid #a8c254;
+    border-top: 1px solid #a8c254;
     margin: 0 15px;
 }
 
 /* Shout */
 .shout {
     width: 80%;
-    padding-top: 43px;
+    padding-top: 22px;
     padding-bottom: 40px;
 }
 
@@ -72,6 +72,8 @@
     font-size: 22px;
     text-align: center;
     font-style: italic;
+    line-height: 27px;
+    margin-bottom: 0;
 }
 
 .shout p i.fa{
@@ -88,7 +90,7 @@
 }
 
 #slider .border-bottom {
-    border: 1px solid #e2e2e2;
+    border-top: 1px solid #e2e2e2;
 }
 
 #slider .carousel-caption {
@@ -215,12 +217,14 @@
 }
 
 .service h4 {
-    margin-top: 0;
-    margin-bottom: 5px;
+    margin-top: 3px;
+    margin-bottom: 14px;
 }
 
 .service p {
     color: #868686;
+    margin-bottom: 0;
+    line-height: 16px;
 }
 
 #clientSay h3 {
@@ -238,11 +242,12 @@
 
 .quote h4 {
     color: #989898;
+    font-size: 16px;
+    line-height: 15px;
 }
 
 .quote h4 > span {
     font-weight: bold;
-    font-size: 16px;
 }
 
 .quote h4 > i.fa {

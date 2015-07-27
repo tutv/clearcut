@@ -384,6 +384,10 @@
     text-transform: uppercase;
 }
 
+#contactUs button.btn:hover {
+    background-color: #8b9e2c;
+}
+
 /* Copyright */
 #copyright {
     padding-top: 20px;

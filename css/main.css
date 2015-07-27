@@ -220,6 +220,11 @@
     margin-bottom: 18px;
 }
 
+.service i {
+    font-size: 64px;
+    line-height: 64px;
+}
+
 .service .media-left {
     padding-right: 9px;
 }

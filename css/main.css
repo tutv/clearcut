@@ -1,8 +1,38 @@
+/*
+Theme Name: clearcut
+Theme URI: http://tutv95.github.io/clearcut
+Author: Tu TV
+Author URI: http://tutran.me
+Description: Tempalte Clearcut. Design by OS Templates.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: clearcut
+Tags:
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Overview
+# Header
+    #Navigation
+    #Shout
+#Main
+    #Slider
+    #Content
+#Footer
+    #Linked
+    #Copyright
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Overview
+--------------------------------------------------------------*/
 #home {
     background-color: #313131;
     color: #666;
     font-size: 13px;
-    font-family: "Georgia";
+    font-family: Georgia, serif;
 }
 
 #home > .container {
@@ -13,7 +43,8 @@
     color: #a7c353;
 }
 
-#header, #main {
+#header,
+#main {
     background-color: #fff;
 }
 
@@ -22,18 +53,22 @@
     cursor: pointer;
 }
 
-/* Fix padding */
-#slider.container-fluid,#content.container-fluid {
+#slider.container-fluid,
+#content.container-fluid { /* Fix padding */
     padding-left: 20px;
     padding-right: 20px;
 }
 
-/**** Header ****/
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
 #header {
     border-top: 5px solid #a8c254;
 }
 
-/* Navigation */
+/*--------------------------------------------------------------
+##Navigation
+--------------------------------------------------------------*/
 #navbar-top {
     border: none;
     background-color: #fff;
@@ -66,8 +101,7 @@
     line-height: 10px;
 }
 
-/* Nabar for mobile */
-#navbar-mobile ul.nav > li > a {
+#navbar-mobile ul.nav > li > a { /* Navbar for mobile */
     text-transform: uppercase;
     color: #979797;
     padding: 20px;
@@ -83,7 +117,9 @@
     margin: 0 20px;
 }
 
-/* Shout */
+/*--------------------------------------------------------------
+## Shout
+--------------------------------------------------------------*/
 .shout {
     width: 80%;
     padding-top: 22px;
@@ -101,12 +137,13 @@
 .shout p i.fa{
     font-size: 12px;
 }
-/**** End Header ****/
-/********************/
 
-/**** Main ****/
-
-/* Slider */
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Slider
+--------------------------------------------------------------*/
 #slideshow {
     margin-bottom: 75px;
 }
@@ -142,7 +179,6 @@
     padding-bottom: 9px;
     margin: 0;
 }
-
 
 #slider .carousel-indicators {
     bottom: -40px;
@@ -200,7 +236,9 @@
     background: none;
 }
 
-/* Content */
+/*--------------------------------------------------------------
+## Content
+--------------------------------------------------------------*/
 #content {
     padding-bottom: 40px;
 }
@@ -287,10 +325,9 @@
     font-weight: bold;
 }
 
-/**** End Main ****/
-/********************/
-
-/**** Footer ****/
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
 #footer {
     color: #fff;
 }
@@ -299,7 +336,9 @@
     color: #999999;
 }
 
-/* Linked */
+/*--------------------------------------------------------------
+## Linked
+--------------------------------------------------------------*/
 #linked {
     margin-top: 32px;
 }
@@ -331,7 +370,9 @@
     margin-right: 11px;
 }
 
-#social i.fa-linkedin, #social i.fa-pinterest, #social i.fa-rss {
+#social i.fa-linkedin,
+#social i.fa-pinterest,
+#social i.fa-rss {
     padding: 9px 10px;
 }
 
@@ -388,7 +429,9 @@
     background-color: #8b9e2c;
 }
 
-/* Copyright */
+/*--------------------------------------------------------------
+## Copyright
+--------------------------------------------------------------*/
 #copyright {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -399,6 +442,3 @@
 .border-top-copyright {
     border-top: 1px solid #3a3a3a;
 }
-
-/**** End Footer ****/
-/********************/

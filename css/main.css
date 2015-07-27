@@ -2,6 +2,7 @@
     background-color: #fff;
     color: #666;
     font-size: 13px;
+    font-family: "Georgia";
 }
 
 #home > .container {
@@ -175,7 +176,6 @@
     height: 52px;
     margin-top: -26px;
     top: 50%;
-
 }
 
 #slider .carousel-control.left {

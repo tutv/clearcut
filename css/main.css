@@ -16,6 +16,11 @@
     background-color: #fff;
 }
 
+.img-hover:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
 /**** Header ****/
 #header {
     border-top: 5px solid #a8c254;
